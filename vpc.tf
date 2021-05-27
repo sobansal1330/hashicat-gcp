@@ -1,4 +1,4 @@
-module "network" {
+module "Sonu" {
   source  = "app.terraform.io/mytest--1330-training/network/google"
   version = "3.2.2"
   # insert required variables here
