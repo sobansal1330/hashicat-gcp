@@ -1,9 +1,9 @@
-module "vpc" {
+module "Gaurav" {
     source  = "terraform-google-modules/network/google"
     version = "~> 3.0"
 
     project_id   = var.project
-    network_name = "sonu-network"
+    network_name = "gaurav-network"
     routing_mode = "GLOBAL"
 
    subnets = [
